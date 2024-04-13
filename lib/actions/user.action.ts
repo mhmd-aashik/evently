@@ -15,3 +15,13 @@ export async function createUser(user: CreateUserParams) {
     throw error;
   }
 }
+
+export async function getAllUsers(params: any) {
+  try {
+    connectToDatabase();
+    const allUsers = await User.find({});
+    return allUsers;
+  } catch (error) {
+    console.log(error);
+  }
+}

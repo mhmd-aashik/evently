@@ -1,0 +1,50 @@
+[
+  {
+    "clerkId": "clerk1",
+    "email": "user1@example.com",
+    "username": "user1",
+    "firstName": "John",
+    "lastName": "Doe",
+    "photo": "user1.jpg"
+  },
+  {
+    "clerkId": "clerk2",
+    "email": "user2@example.com",
+    "username": "user2",
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "photo": "user2.jpg"
+  },
+  {
+    "clerkId": "clerk3",
+    "email": "user3@example.com",
+    "username": "user3",
+    "firstName": "Emily",
+    "lastName": "Smith",
+    "photo": "user3.jpg"
+  },
+  {
+    "clerkId": "clerk4",
+    "email": "user4@example.com",
+    "username": "user4",
+    "firstName": "Michael",
+    "lastName": "Johnson",
+    "photo": "user4.jpg"
+  },
+  {
+    "clerkId": "clerk5",
+    "email": "user5@example.com",
+    "username": "user5",
+    "firstName": "Sarah",
+    "lastName": "Brown",
+    "photo": "user5.jpg"
+  },
+  {
+    "clerkId": "clerk6",
+    "email": "user6@example.com",
+    "username": "user6",
+    "firstName": "David",
+    "lastName": "Wilson",
+    "photo": "user6.jpg"
+  }
+]
