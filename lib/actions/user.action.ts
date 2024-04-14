@@ -1,15 +1,14 @@
 "use server";
 
-import { CreateUserParams } from "@/types";
 import { connectToDatabase } from "../mongoose";
 import User from "@/database/user.model";
 
-export async function createUser(user: CreateUserParams) {
+export async function createUser(userData: any) {
   try {
-    await connectToDatabase();
+    connectToDatabase();
 
-    const newUser = await User.create(user);
-    return JSON.parse(JSON.stringify(newUser));
+    const newUser = await User.create(userData);
+    return newUser;
   } catch (error) {
     console.log(error);
     throw error;
