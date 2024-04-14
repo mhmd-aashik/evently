@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { getAllUsers } from "@/lib/actions/user.action";
+import { createUser, getAllUsers } from "@/lib/actions/user.action";
 import Image from "next/image";
 import Link from "next/link";
 
